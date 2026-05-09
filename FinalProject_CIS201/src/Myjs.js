@@ -308,12 +308,12 @@ function displayCartItems() {
     
     
     const imageMap = {
-        'Black T-Shirt': './src/images/b_shirt.png',
-        'White T-Shirt': './src/images/w_shirt.png',
-        'Training T-Shirt': './src/images/training_shirt.png',
-        'Yeti Exclusive Bag': './src/images/bag.png',
-        'Yeti Hat': './src/images/hat.png',
-        'Yeti Cup': './src/images/cup.png'
+        'Black T-Shirt': '../src/images/b_shirt.png',
+        'White T-Shirt': '../src/images/w_shirt.png',
+        'Training T-Shirt': '../src/images/training_shirt.png',
+        'Yeti Exclusive Bag': '../src/images/bag.png',
+        'Yeti Hat': '../src/images/hat.png',
+        'Yeti Cup': '../src/images/cup.png'
     };
     
     let cartHTML = '<div class="cart-items-list">';
@@ -321,7 +321,7 @@ function displayCartItems() {
     cart.forEach((item, index) => {
         const itemTotal = (item.price * item.quantity).toFixed(2);
         
-        const imgSrc = imageMap[item.name] || './src/images/eyeslogo.png';
+        const imgSrc = imageMap[item.name] || '../src/images/eyeslogo.png';
         
         cartHTML += `
             <div class="cart-item">
