@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YETI - Contact</title>
+    <link rel="stylesheet" href="/src/MyStyle.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">
+                <img src="/src/images/eyeslogo.png" alt="Logo">
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <a href="cart.html" class="cart">
+                <img src="/src/images/cart.png" alt="Cart">
+            </a>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </nav>
+
+    </header>
+
+    <main class="main-content">
+        <h1>Contact Us</h1>
+
+        <div class="contact-methods">
+            <div class="contact-method-card">
+                <div class="contact-method-content">
+                    <p class="contact-label">Speak to us</p>
+                    <p class="contact-main">+966 59 170 1128</p>
+                    <p class="contact-availability">Available everyday, 9am-5pm UAE time</p>
+                </div>
+                <div class="contact-icon">
+                    <img src="/src/images/phone.png" alt="Phone Icon" class="contact-icon-image">
+                </div>
+            </div>
+
+            <div class="contact-method-card">
+                <div class="contact-method-content">
+                    <p class="contact-label">Chat on WhatsApp</p>
+                    <p class="contact-availability">Available everyday, 9am-5pm UAE time</p>
+                </div>
+                <div class="contact-icon">
+                    <img src="/src/images/whatsapp.png" alt="WhatsApp Icon" class="contact-icon-image">
+                </div>
+            </div>
+
+            <div class="contact-method-card">
+                <div class="contact-method-content">
+                    <p class="contact-label">Email us directly</p>
+                    <p class="contact-main">sawftah.husam@gmail.com</p>
+                    <p class="contact-availability">Available everyday, 9am-5pm UAE time</p>
+                </div>
+                <div class="contact-icon">
+                    <img src="/src/images/email.png" alt="Email Icon" class="contact-icon-image">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" >
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    
+    <footer class="footer">
+        <p>Husam Sawaftah</p>
+        <p>Web Design - Sara Al Sabeg</p>
+        <p>&copy; Alyamamah University 2026</p>
+    </footer>
+
+    <script src="/src/Myjs.js"></script>
+</body>
+</html>
